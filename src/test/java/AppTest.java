@@ -26,6 +26,26 @@ public class AppTest {
         assertEquals(appObj.isPrime(32416189051L),false);
     }
 
-    
+    @Test
+    public void testCount1(){
+        App appObj = new App();
+        assertEquals(appObj.countPrime(0,0),0);
+    }
+    @Test
+    public void testCount2(){
+        App appObj = new App();
+        assertEquals(appObj.countPrime(-1,1),2);
+    }
+
+    @Test
+    public void testCount3(){
+        App appObj = new App();
+        assertEquals(appObj.countPrime(1,10),5);
+    }
+    @Test
+    public void testCount4(){
+        App appObj = new App();
+        assertEquals(appObj.countPrime(20,40),4);
+    }
 
 }
