@@ -16,6 +16,18 @@ public class App {
             return true;
         }
 
+        public int countPrime(long num1,long num2){
+            int count =0;
+            for (long i = num1; i<=num2; i++){
+                if(isPrime(i)){
+                    count=count+1;
+                }
+            }
+            return count;
+        }
+
+
+
 
     public static void main(String[] args) {
 

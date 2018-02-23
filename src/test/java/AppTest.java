@@ -25,4 +25,7 @@ public class AppTest {
         App appObj = new App();
         assertEquals(appObj.isPrime(32416189051L),false);
     }
+
+    
+
 }
